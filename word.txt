@@ -1,1 +1,9 @@
 吃饭 eat
+睡觉 sleep
+学习 study
+坚持 insist
+书 book
+电脑 computer
+猫 cat
+狗 dog
+灯 light

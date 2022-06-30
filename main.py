@@ -42,7 +42,7 @@ translate_english_hanzi = {}
 translate_hanzi_english = {}
 words = []
 Chinese = []
-file = open('word.txt', 'r', encoding='UTF-8')
+file = open('word.txt', 'r', encoding='gbk')
 for line in file.readlines():
     i = 0
     line = line.strip()
