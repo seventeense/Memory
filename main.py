@@ -7,6 +7,7 @@
 """
 import datetime
 import random as r
+import pickle
 
 
 def _form():
@@ -82,11 +83,12 @@ if __name__ == '__main__':
                 words.append(new_key)
                 Chinese.append(new_value)
                 continue1 = input("是否继续添加单词(Y/N):")
-            file = open('word.txt', 'w')
-            for k, v in translate_hanzi_english:
-                file.write(str(k) + ' ' + str(v) + 'n' + '\n')
+            file=open('word.txt','w')
+            for k, v in translate_hanzi_english.items():
+                file.write(str(k) + ' ' + str(v) + '\n')
             file.close()
             iscontinue = input("\n\n是否继续（Y/N)：")
+
         if F == '2':
             continue2 = 'y'
             n = 0
